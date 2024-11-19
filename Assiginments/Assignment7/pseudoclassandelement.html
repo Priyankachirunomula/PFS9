@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .styled-button {
+            color:beige;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .styled-button:hover {
+            color:darkblue;
+        }
+        .styled-button:focus {
+            color:cadetblue;
+        }
+        .styled-button:active {
+            color:brown;
+        }
+        /* nth-child() */
+        tr {
+            font-size: 15px;
+            color:chocolate;
+        }
+        tr:first-child {
+            background-color:coral;
+        }
+        tr:nth-child(even) {
+            background-color: blueviolet;
+        }
+        tr:nth-child(odd) {
+            background-color:chartreuse;
+        }
+        /*pseudo-code elements */
+        p {
+            font-size: 20px;
+            color:darkgoldenrod;
+        }
+        p::first-letter {
+            font-size: 20px;
+            color:blueviolet;
+            font-weight: bold;
+        }
+        p::after {
+            content:" *";
+            color:darkmagenta;
+        }
+        p::first-line {
+            font-size: 25px;
+            color:darkgreen;
+        }
+        ::selection {
+            background-color:crimson;
+            color:cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <button class="styled-button">Submit</button><br><br>
+    <table>
+        <tr><td>row1</td></tr>
+        <tr><td>row2</td></tr>
+        <tr><td>row3</td></tr>
+        <tr><td>row4</td></tr>
+        <tr><td>row5</td></tr>
+        <tr><td>row6</td></tr>
+        <tr><td>row7</td></tr>
+    </table><br><br>
+    <p>My name is Priya.I am from Bhadrachalam </p>
+
+</body>
+</html>
